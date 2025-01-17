@@ -1,0 +1,85 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+section{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 30px;
+   background: #f4f4f4;
+}
+
+#inputSearch{
+   margin: 20px;
+   padding: 10px 15px;
+   border-radius: 8px;
+   border: 1px solid #ddd;
+   outline: none;
+   width: 450px;
+   font-size: 16px;
+   transition: all 0.3s ease;
+}
+
+#inputSearch:focus{
+   border-color: #007BFF;
+   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#button-search{
+   background: black;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 8px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+  
+}
+
+table{
+   width: 80%;
+   text-align: center;
+   border-collapse: collapse;
+   background: white;
+   margin-top: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th{
+   background: #333;
+   color: white;
+   padding: 12px;
+   font-size: 16px;
+}
+
+tbody tr{
+   transition: background-color 0.3s ease;
+}
+td{
+   padding: 10px;
+   font-size: 14px;
+   text-transform: capitalize;
+   font-size: 20px;
+   border: 1px solid #ddd;
+}
+
+tfoot td{
+   padding: 12px;
+   font-size: 16px;
+   font-weight: bold;
+   background: #333;
+   color: white;
+}
+
+
